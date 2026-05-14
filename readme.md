@@ -81,7 +81,7 @@ The stress test shows that long-maturity instruments are more sensitive to inter
 In this simplified balance sheet, long-term assets lose more value under a +100bps rate shock, while shorter-term liabilities are less affected. As a result, the economic value of the balance sheet deteriorates under the stress scenario.
 
 ## Power BI Dashboard
-![Dashboard](images/dashboard.png)
+![Dashboard](Images/dashboard.png)
 
 ## Tech Stack
 
