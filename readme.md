@@ -56,6 +56,13 @@ ALM/
 │   ├── gap_analysis.py
 │   └── stress_tests.py
 │
+├── Dashboard/
+│   ├── alm_risk_dashboard.pbix
+│   
+├── Images/
+│   ├── dashboard.png
+│     
+│   
 ├── main.py
 ├── README.md
 └── requirements.txt
@@ -73,6 +80,9 @@ The stress test shows that long-maturity instruments are more sensitive to inter
 
 In this simplified balance sheet, long-term assets lose more value under a +100bps rate shock, while shorter-term liabilities are less affected. As a result, the economic value of the balance sheet deteriorates under the stress scenario.
 
+## Power BI Dashboard
+![Dashboard](images/dashboard.png)
+
 ## Tech Stack
 
 * Python
@@ -88,6 +98,8 @@ In this simplified balance sheet, long-term assets lose more value under a +100b
 4. The output files will be generated in the `outputs/` folder.
 5. These files can then be imported into Power BI.
 
+
+
 ## Next Improvements
 
 Possible improvements include:
@@ -96,7 +108,7 @@ Possible improvements include:
 * Implementing interpolation instead of nearest-rate matching
 * Adding duration and convexity calculations
 * Using real market yield curve data
-* Building a Power BI dashboard
+
 
 
 
